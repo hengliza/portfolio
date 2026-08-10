@@ -2,15 +2,8 @@
 
 import { certificates } from "@/data/certificate";
 import { CertificateCard } from "../cards/CertificateCards";
-import { CertificateImages, CertificateUploadHandler } from "@/data/certificate";
 
-export function CertificatesSection({
-  images,
-  onUpload,
-}: {
-  images: CertificateImages;
-  onUpload: CertificateUploadHandler;
-}) {
+export function CertificatesSection() {
   return (
     <section
       id="certificates"
@@ -29,8 +22,6 @@ export function CertificatesSection({
             <CertificateCard
               key={certificate[0]}
               certificate={certificate}
-              image={images[certificate[0]]}
-              onUpload={onUpload}
             />
           ))}
         </div>
