@@ -36,7 +36,8 @@ export function Header({
             alt="Heng Liza profile picture"
             width={40}
             height={40}
-            className="h-10 w-10 rounded-full object-cover"
+            className="w-[40px] h-[40px] rounded-full object-cover"
+            loading="eager"
           />
           <a
             href="#home"

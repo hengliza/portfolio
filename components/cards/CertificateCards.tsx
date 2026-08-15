@@ -18,8 +18,6 @@ export function CertificateCard({
           <Image
             width={400}
             height={300}
-            priority
-            quality={100}
             src={certificateImage}
             alt={`${name} certificate`}
             className="h-full w-full object-cover"

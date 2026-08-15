@@ -9,8 +9,6 @@ export function PhotoCard() {
           <Image
             width={400}
             height={500}
-            priority
-            quality={100}
             src="/Images/profile.jpg"
             alt="Heng Liza profile picture"
             className="h-full w-full object-cover"
